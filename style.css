@@ -23,7 +23,7 @@ header {
     background-color: rgba(229, 84, 115, 0.1);
     padding-top: 50px;
 
-    margin-bottom: 130px;
+    margin-bottom: 178px;
 }
 
 header .banner-container {
@@ -65,3 +65,74 @@ header .banner-container {
 }
 
 
+/* Featured related styles */
+
+.feature-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.heading-container {
+    text-align: center;
+    max-width: 594px;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+.heading-container h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    color: #272727;
+}
+
+.heading-container p {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 48px;
+}
+
+
+.feature-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 128px;
+}
+
+
+.feature-card {
+    max-width: 343px;
+    border: 1px solid black;
+    padding: 20px 7px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(167, 33, 98, 0.15);
+
+
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.6);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 1px 1px 2px 1px rgba(128, 128, 128, 0.404);
+}
+
+.card2 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.card3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.feature-card img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    padding-left: 25px;
+}
