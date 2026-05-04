@@ -44,5 +44,50 @@
     }
 
 
+    /* Feature section */
+
+    header {
+        margin-bottom: 80px;
+    }
+
+
+    main {
+        max-width: 100%;
+    }
+
+    .feature-container {
+        width: 95%;
+    }
+
+    .heading-container {
+        max-width: 100%;
+    }
+
+    .heading-container h2 {
+        font-size: 35px;
+    }
+
+    .feature-card-container {
+        max-width: 100%;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .feature-card {
+        margin: 0 auto;
+    }
+
+    .feature-card {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .feature-card img {
+        width: 100%;
+    }
+
+
+
+
 
 }
