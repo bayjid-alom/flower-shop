@@ -1,0 +1,48 @@
+@media screen and (max-width: 576px) {
+
+    .btn-group {
+        align-items: center;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    header .banner-container {
+        gap: 60px;
+        max-width: 95%;
+    }
+
+    header .banner-container {
+        flex-direction: column;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .banner-container .banner-content {
+        max-width: 100%;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-content h1 {
+        font-size: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .banner-image {
+        width: 86%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+}
