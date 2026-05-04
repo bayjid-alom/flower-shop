@@ -4,3 +4,65 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
+
+.primary-btn {
+    font-size: 20px;
+    padding: 20px 43px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #E55473;
+}
+
+
+
+/* Bannaer Related Styles */
+
+header {
+    background-color: rgba(229, 84, 115, 0.1);
+    padding-top: 50px;
+
+    margin-bottom: 130px;
+}
+
+header .banner-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 97px;
+    margin: 0 auto;
+    /* background-color: rgba(46, 211, 148, 0.301); */
+
+}
+
+.banner-container .banner-content {
+    max-width: 708px;
+    max-height: 506px;
+    /* border: 1px solid black; */
+}
+
+.banner-content h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: #272727;
+    margin-bottom: 32px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 32px;
+
+}
+
+.banner-container .banner-image img {
+    width: 100%;
+    max-width: 635px;
+    vertical-align: middle;
+    max-height: 800px;
+}
+
+
