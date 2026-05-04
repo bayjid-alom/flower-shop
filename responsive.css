@@ -74,12 +74,12 @@
     }
 
     .feature-card {
-        margin: 0 auto;
     }
-
+    
     .feature-card {
+        margin: 0 auto;
         max-width: 100%;
-        padding: 20px;
+        padding: 35px;
     }
 
     .feature-card img {

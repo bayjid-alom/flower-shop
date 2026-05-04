@@ -120,6 +120,7 @@ header .banner-container {
     border: none;
     border-radius: 12px;
     box-shadow: 1px 1px 2px 1px rgba(128, 128, 128, 0.404);
+    aspect-ratio: 5 / 7;
 }
 
 .card2 {
