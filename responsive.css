@@ -73,13 +73,13 @@
         gap: 25px;
     }
 
-    .feature-card {
-    }
+   
     
     .feature-card {
         margin: 0 auto;
         max-width: 100%;
         padding: 35px;
+        aspect-ratio: 5 / 7;
     }
 
     .feature-card img {

@@ -137,3 +137,48 @@ header .banner-container {
     margin: 0 auto;
     padding-left: 25px;
 }
+
+
+
+/* Sticker section styles */
+
+.sticker-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 86px 175px;
+    border-radius: 8px;
+}
+
+.sticker-card-container {
+    max-width: 1090px;
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+.sticker-card {
+    max-width: 372px;
+    flex: 1;
+    /* border: 1px solid black; */
+    /* display: block; */
+    align-content: center;
+    text-align: center;
+
+}
+
+.sticker-card img {
+    margin: 0 auto;
+    max-width: 88px;
+    margin-bottom: 24px;
+}
+
+.sticker-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.8);
+
+}
