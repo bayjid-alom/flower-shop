@@ -73,8 +73,8 @@
         gap: 25px;
     }
 
-   
-    
+
+
     .feature-card {
         margin: 0 auto;
         max-width: 100%;
@@ -84,6 +84,37 @@
 
     .feature-card img {
         width: 100%;
+    }
+
+
+    /* Sticker related styles */
+
+
+    .sticker-section {
+        padding: 40px 20px;
+        margin-bottom: 60px;
+    }
+
+    .sticker-card-container {
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .sticker-card {
+        max-width: 100%;
+        width: 100%;
+
+
+    }
+
+    .sticker-card h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .sticker-card img {
+        max-width: 70px;
     }
 
 
