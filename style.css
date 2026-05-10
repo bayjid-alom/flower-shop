@@ -209,8 +209,12 @@ header .banner-container {
 .deal-content h2 {
     font-size: 40px;
     margin-bottom: 24px;
-    font-weight: 600;
+    font-weight: 900;
     color: #272727;
+}
+
+.off {
+    color: #E55473;
 }
 
 .deal-content p {

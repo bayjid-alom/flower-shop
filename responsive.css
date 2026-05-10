@@ -118,6 +118,51 @@
     }
 
 
+    /* Deal Section */
+
+    .discount-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-bottom: 80px;
+    }
+
+    .deal-container {
+        max-width: 90%;
+        flex-direction: column-reverse;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .deal-content {
+        max-width: 100%;
+    }
+
+    .deal-content h2 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 18px;
+    }
+
+    .deal-content p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    .deal-image {
+        max-width: 220px;
+    }
+
+    .deal-image img {
+        width: 100%;
+    }
+
+    .primary-btn {
+        width: 100%;
+        max-width: 220px;
+    }
+
+
 
 
 
