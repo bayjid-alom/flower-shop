@@ -238,6 +238,13 @@ header .banner-container {
 
 /* Flowers section */
 
+.flowers {
+    max-width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-bottom: 128px;
+}
+
 .flowers-heading {
     text-align: center;
     max-width: 594px;
@@ -258,4 +265,28 @@ header .banner-container {
     font-weight: 600;
     color: rgba(39, 39, 39, 0.6);
     margin-bottom: 48px;
+}
+
+
+.flowers-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.flower-card {
+    max-width: 342px;
+    border-radius: 8px;
+    transition: transform 2s linear;
+}
+
+.flower-card:hover {
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
+    transform: scale(1.1);
+}
+
+.flower-card img {
+    width: 100%;
+    border-radius: 8px;
+
 }
