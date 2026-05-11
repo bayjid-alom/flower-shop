@@ -51,8 +51,9 @@ header .banner-container {
 
 .banner-content p {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: rgba(39, 39, 39, 0.6);
+    line-height: 26px;
     margin-bottom: 32px;
 
 }
@@ -290,4 +291,72 @@ header .banner-container {
     width: 100%;
     border-radius: 8px;
 
+}
+
+
+/* Subscribe section */
+
+.subscribe {
+    max-width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-bottom: 128px;
+    padding-top: 122px;
+    padding-bottom: 122px;
+    border-radius: 8px;
+    background-image: url('assets/Rectangle\ 9.png');
+    text-align: center;
+
+}
+
+.subscribe-container {
+    max-width: 866px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container input {
+    max-height: 64px;
+    padding: 18px;
+    width: 73%;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.6);
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.input-container button {
+    max-height: 64px;
+    padding: 23px;
+    width: 25%;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+
+
+}
+
+.subscribe-container h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    color: #272727;
+}
+
+.subscribe-container p {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 48px;
+    line-height: 26px;
 }
