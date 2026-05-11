@@ -306,6 +306,8 @@ header .banner-container {
     border-radius: 8px;
     background-image: url('assets/Rectangle\ 9.png');
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
