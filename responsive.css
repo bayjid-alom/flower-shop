@@ -163,6 +163,27 @@
     }
 
 
+    /* Flowers Section */
+
+    .flowers-heading {
+        max-width: 100%;
+    }
+
+    .flowers-heading h2 {
+        font-size: 35px;
+    }
+
+    .flowers-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .flower-card {
+        max-width: 100%;
+
+    }
+
+
 
 
 
