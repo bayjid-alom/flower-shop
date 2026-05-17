@@ -365,54 +365,38 @@ header .banner-container {
 
 
 
+/* footer related styles */
 
+footer {
+    background-color: #111010;
+    padding: 128px 0;
+    text-align: center;
+    color: white;
 
+}
 
-
-
-
-.round-card-container {
-    max-width: 80%;
+.footer-container {
+    max-width: 625px;
     margin: 0 auto;
-    /* border: 1px solid black; */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    margin-bottom: 100px;
+    /* border: 1px solid white; */
 }
 
-.round-card-container>div {
-    position: relative;
+.footer-container>h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 24px;
 }
 
-.round-card-container>div>.img-flower {
-    position: absolute;
-    bottom:0 ;
-    left: 50px;
-    z-index: 5;
-    max-width: 250px;
+.footer-container>h2>span {
+    color: #E55473;
 }
 
-.flower-2{
-    position: absolute;
-    top: 100px;
-    left: 50px;
+footer p {
+    font-size: 18px;
+    margin-bottom: 18px;
 }
 
-
-
-
-
-.img-bg,
-.img-flower {
-    width: 100%;
-}
-
-.round-flower {
-    max-width: 464px;
-}
-
-.round-card{
-    /* border: 1px solid black; */
-    max-width: 464px;
+.copyright {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.4);
 }
